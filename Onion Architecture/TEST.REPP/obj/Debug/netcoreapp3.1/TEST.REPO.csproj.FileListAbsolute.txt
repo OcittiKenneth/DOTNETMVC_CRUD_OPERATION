@@ -1,0 +1,12 @@
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.csprojAssemblyReference.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.csproj.CoreCompileInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.AssemblyInfoInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.AssemblyInfo.cs
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.REPO.deps.json
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.REPO.dll
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.REPO.pdb
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.PROJECT.dll
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.PROJECT.pdb
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.csproj.CopyComplete
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.dll
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPO.pdb

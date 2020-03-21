@@ -1,0 +1,5 @@
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.REPP.deps.json
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\bin\Debug\netcoreapp3.1\TEST.REPP.dll
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPP.csprojAssemblyReference.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPP.AssemblyInfoInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.REPP\obj\Debug\netcoreapp3.1\TEST.REPP.AssemblyInfo.cs

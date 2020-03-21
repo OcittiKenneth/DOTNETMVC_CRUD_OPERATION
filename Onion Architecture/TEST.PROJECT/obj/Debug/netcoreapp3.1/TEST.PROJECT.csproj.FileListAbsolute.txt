@@ -1,0 +1,12 @@
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\bin\Debug\netcoreapp3.1\TEST.PROJECT.deps.json
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\bin\Debug\netcoreapp3.1\TEST.PROJECT.dll
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.AssemblyInfoInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.AssemblyInfo.cs
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\bin\Debug\netcoreapp3.1\TEST.PROJECT.runtimeconfig.json
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\bin\Debug\netcoreapp3.1\TEST.PROJECT.runtimeconfig.dev.json
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.genruntimeconfig.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.csproj.CoreCompileInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\bin\Debug\netcoreapp3.1\TEST.PROJECT.pdb
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.dll
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.pdb
+C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.PROJECT\obj\Debug\netcoreapp3.1\TEST.PROJECT.csprojAssemblyReference.cache
