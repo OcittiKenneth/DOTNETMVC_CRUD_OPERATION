@@ -12,3 +12,17 @@ C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.Service\bin\Debug\netc
 C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.csproj.CopyComplete
 C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.dll
 C:\Users\WalterNyeko\Desktop\carl\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.pdb
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.Service.deps.json
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.Service.dll
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.Service.pdb
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.PROJECT.dll
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.REPO.dll
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.PROJECT.pdb
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\bin\Debug\netcoreapp3.1\TEST.REPO.pdb
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.csprojAssemblyReference.cache
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.csproj.CoreCompileInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.AssemblyInfoInputs.cache
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.AssemblyInfo.cs
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.csproj.CopyComplete
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.dll
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.Service\obj\Debug\netcoreapp3.1\TEST.Service.pdb

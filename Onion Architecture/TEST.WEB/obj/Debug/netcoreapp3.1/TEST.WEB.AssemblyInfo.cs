@@ -11,9 +11,12 @@
 using System;
 using System.Reflection;
 
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TEST.PROJECT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.PROJECT", "TEST.PROJECT.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TEST.REPO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.REPP", "TEST.REPO.csproj", "0")]
-[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TEST.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.Service", "TEST.Service.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TEST.PROJECT, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TES" +
+    "T.PROJECT", "TEST.PROJECT.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TEST.REPO, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TES" +
+    "T.REPP", "TEST.REPO.csproj", "0")]
+[assembly: Microsoft.AspNetCore.Mvc.Testing.WebApplicationFactoryContentRootAttribute("TEST.Service, Version=1.0.0.0, Culture=neutral, PublicKeyToken=null", "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TES" +
+    "T.Service", "TEST.Service.csproj", "0")]
 [assembly: System.Reflection.AssemblyCompanyAttribute("TEST.WEB")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]

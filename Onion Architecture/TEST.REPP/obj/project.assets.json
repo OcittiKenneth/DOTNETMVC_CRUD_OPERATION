@@ -4950,11 +4950,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj",
+      "projectUniqueName": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj",
       "projectName": "TEST.REPO",
-      "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj",
+      "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj",
       "packagesPath": "C:\\Users\\WalterNyeko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.REPP\\obj\\",
+      "outputPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.REPP\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -4974,8 +4974,8 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.PROJECT\\TEST.PROJECT.csproj": {
-              "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.PROJECT\\TEST.PROJECT.csproj"
+            "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.PROJECT\\TEST.PROJECT.csproj": {
+              "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.PROJECT\\TEST.PROJECT.csproj"
             }
           }
         }

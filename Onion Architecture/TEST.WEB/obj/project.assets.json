@@ -8964,11 +8964,11 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.WEB\\TEST.WEB.csproj",
+      "projectUniqueName": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.WEB\\TEST.WEB.csproj",
       "projectName": "TEST.WEB",
-      "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.WEB\\TEST.WEB.csproj",
+      "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.WEB\\TEST.WEB.csproj",
       "packagesPath": "C:\\Users\\WalterNyeko\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.WEB\\obj\\",
+      "outputPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.WEB\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Microsoft\\Xamarin\\NuGet\\"
@@ -8988,11 +8988,11 @@
       "frameworks": {
         "netcoreapp3.1": {
           "projectReferences": {
-            "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj": {
-              "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj"
+            "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj": {
+              "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.REPP\\TEST.REPO.csproj"
             },
-            "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.Service\\TEST.Service.csproj": {
-              "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\Onion Architecture\\TEST.Service\\TEST.Service.csproj"
+            "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.Service\\TEST.Service.csproj": {
+              "projectPath": "C:\\Users\\WalterNyeko\\Desktop\\carl\\DOTNETMVC_CRUD_OPERATION\\Onion Architecture\\TEST.Service\\TEST.Service.csproj"
             }
           }
         }
