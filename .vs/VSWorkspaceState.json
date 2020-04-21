@@ -1,6 +1,10 @@
 {
   "ExpandedNodes": [
-    ""
+    "",
+    "\\Onion Architecture",
+    "\\Onion Architecture\\TEST.WEB",
+    "\\Onion Architecture\\TEST.WEB\\Models"
   ],
+  "SelectedNode": "\\Onion Architecture\\TEST.WEB\\Models\\JointTablesClass.cs",
   "PreviewInSolutionExplorer": false
 }

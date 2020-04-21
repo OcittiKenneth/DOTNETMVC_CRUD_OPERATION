@@ -181,6 +181,8 @@ C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TE
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\TEST.WEB.pdb
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\TEST.WEB.Views.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\TEST.WEB.Views.pdb
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\System.Net.Http.Formatting.dll
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\System.Web.Http.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Mvc.Testing.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.Razor.Language.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Microsoft.AspNetCore.TestHost.dll
@@ -235,6 +237,7 @@ C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TE
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGeneration.Utils.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Microsoft.VisualStudio.Web.CodeGenerators.Mvc.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.dll
+C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\Newtonsoft.Json.Bson.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\NuGet.Frameworks.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\System.Composition.AttributedModel.dll
 C:\Users\WalterNyeko\Desktop\carl\DOTNETMVC_CRUD_OPERATION\Onion Architecture\TEST.WEB\bin\Debug\netcoreapp3.1\System.Composition.Convention.dll

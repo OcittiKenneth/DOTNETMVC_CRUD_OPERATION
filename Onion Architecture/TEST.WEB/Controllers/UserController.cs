@@ -1,16 +1,18 @@
 ﻿using System;
 using System.Collections.Generic;
 using System.Linq;
-using System.Threading.Tasks;
+using System.Net.Http;
 using Microsoft.AspNetCore.Mvc;
 using TEST.PROJECT;
 using TEST.Service;
 using TEST.WEB.Models;
+using System.Threading.Tasks;
 
 namespace TEST.WEB.Controllers
 {
     public class UserController : Controller
     {
+
         private readonly IUserService userService;
         private readonly IUserProfileService userProfileService;
 
@@ -22,22 +24,30 @@ namespace TEST.WEB.Controllers
 
         public IActionResult Index()
         {
-            List<UserViewModel> model = new List<UserViewModel>();
-            this.userService.GetUsers().ToList().ForEach(u =>
+
+            using (var client = new HttpClient()) 
             {
-                UserProfile userProfile = this.userProfileService.GetUserProfile(u.Id);
+                client.BaseAddress = new Uri("https://localhost:44365/");
 
-                UserViewModel user = new UserViewModel
+                List<UserViewModel> model = new List<UserViewModel>();
+                this.userService.GetUsers().ToList().ForEach(u =>
                 {
-                    Id = u.Id,
-                    Name = $"{userProfile.FirstName} {userProfile.LastName}",
-                    Email = u.Email,
-                    Address = userProfile.Address
-                };
-                model.Add(user);
-            });
+                    UserProfile userProfile = this.userProfileService.GetUserProfile(u.Id);
 
-            return View(model);
+                    UserViewModel user = new UserViewModel
+                    {
+                        Id = u.Id,
+                        Name = $"{userProfile.FirstName} {userProfile.LastName}",
+                        Email = u.Email,
+                        Address = userProfile.Address
+                    };
+                    model.Add(user);
+                });
+
+                return View(model);
+            }
+
+            
         }
 
         [HttpGet]
@@ -50,47 +60,60 @@ namespace TEST.WEB.Controllers
         [HttpPost]
         public ActionResult AddUser(UserViewModel model)
         {
-            User userentity = new User
+            using (var client = new HttpClient())
             {
-                UserName = model.UserName,
-                Email = model.Email,
-                Password = model.Password,
-                AddedDate = DateTime.Now,
-                IPAddress = Request.HttpContext.Connection.RemoteIpAddress.ToString(),
-
-                UserProfile = new UserProfile { 
-                    FirstName = model.FirstName,
-                    LastName = model.LastName,
-                    Address = model.Address,
+                client.BaseAddress = new Uri("https://localhost:44365/");
+                User userentity = new User
+                {
+                    UserName = model.UserName,
+                    Email = model.Email,
+                    Password = model.Password,
                     AddedDate = DateTime.Now,
-                    ModifiedDate = DateTime.Now,
                     IPAddress = Request.HttpContext.Connection.RemoteIpAddress.ToString(),
-                }
-            };
 
-            this.userService.InsertUser(userentity);
-            if(userentity.Id > 0)
-            {
-                return RedirectToAction("Index");
+                    UserProfile = new UserProfile
+                    {
+                        FirstName = model.FirstName,
+                        LastName = model.LastName,
+                        Address = model.Address,
+                        AddedDate = DateTime.Now,
+                        ModifiedDate = DateTime.Now,
+                        IPAddress = Request.HttpContext.Connection.RemoteIpAddress.ToString(),
+                    }
+                };
+
+                this.userService.InsertUser(userentity);
+                if (userentity.Id > 0)
+                {
+                    return RedirectToAction("Index");
+                }
+
+                return View(model);
             }
 
-            return View(model);
+                
         }
 
         [HttpGet]
         public ActionResult EditUser(int id)
         {
-            UserViewModel model = new UserViewModel();
-            if(id != 0)
+            using (var client = new HttpClient())
             {
-                User userEntity = this.userService.GetUser(id);
-                UserProfile userProfileEntity = this.userProfileService.GetUserProfile(id);
-                model.FirstName = userProfileEntity.FirstName;
-                model.LastName = userProfileEntity.LastName;
-                model.Address = userProfileEntity.Address;
-                model.Email = userEntity.Email;
+                client.BaseAddress = new Uri("https://localhost:44365/");
+                UserViewModel model = new UserViewModel();
+                if (id != 0)
+                {
+                    User userEntity = this.userService.GetUser(id);
+                    UserProfile userProfileEntity = this.userProfileService.GetUserProfile(id);
+                    model.FirstName = userProfileEntity.FirstName;
+                    model.LastName = userProfileEntity.LastName;
+                    model.Address = userProfileEntity.Address;
+                    model.Email = userEntity.Email;
+                }
+                return View("EditUser", model);
             }
-            return View("EditUser", model);
+
+             
         }
 
         [HttpPost]
@@ -121,14 +144,18 @@ namespace TEST.WEB.Controllers
         [HttpGet]
         public ActionResult DeleteUser(int id)
         {
-            UserViewModel model = new UserViewModel();
-            if (id != 0)
+            using (var client = new HttpClient())
             {
-                UserProfile userProfileEntity = this.userProfileService.GetUserProfile(id);
-                model.FirstName = userProfileEntity.FirstName;
-                model.LastName = userProfileEntity.LastName;
+                client.BaseAddress = new Uri("https://localhost:44365/");
+                UserViewModel model = new UserViewModel();
+                if (id != 0)
+                {
+                    UserProfile userProfileEntity = this.userProfileService.GetUserProfile(id);
+                    model.FirstName = userProfileEntity.FirstName;
+                    model.LastName = userProfileEntity.LastName;
+                }
+                return View("DeleteUser", model);
             }
-            return View("DeleteUser", model);
         }
 
         [HttpPost]
@@ -142,19 +169,25 @@ namespace TEST.WEB.Controllers
         [HttpGet]
         public ActionResult DetailsUser(int id)
         {
-            UserViewModel model = new UserViewModel();
-            if (id != 0)
+            using (var client = new HttpClient())
             {
-                User userEntity = this.userService.GetUser(id);
-                UserProfile userProfileEntity = this.userProfileService.GetUserProfile(id);
-                model.Id = userEntity.Id;
-                model.FirstName = userProfileEntity.FirstName;
-                model.LastName = userProfileEntity.LastName;
-                model.Address = userProfileEntity.Address;
-                model.Email = userEntity.Email;
-                model.UserName = userEntity.UserName;
+                client.BaseAddress = new Uri("https://localhost:44365/");
+                UserViewModel model = new UserViewModel();
+                if (id != 0)
+                {
+                    User userEntity = this.userService.GetUser(id);
+                    UserProfile userProfileEntity = this.userProfileService.GetUserProfile(id);
+                    model.Id = userEntity.Id;
+                    model.FirstName = userProfileEntity.FirstName;
+                    model.LastName = userProfileEntity.LastName;
+                    model.Address = userProfileEntity.Address;
+                    model.Email = userEntity.Email;
+                    model.UserName = userEntity.UserName;
+                }
+                return View(model);
             }
-            return View(model);
+
+            
         }
     }
 } 
